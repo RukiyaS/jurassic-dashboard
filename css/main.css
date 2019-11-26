@@ -3,3 +3,48 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+h2 {
+  color: #6feff9;
+}
+
+.map {
+  border: 1px dotted #6feff9;
+  padding: 4px;
+}
+
+.dashboard {
+  color: #f62e52;
+  color: #ffd31d;
+}
+
+.dashboard-controls {
+  border-top: 1px dotted #6feff9;
+  border-bottom: 1px dotted #6feff9;
+}
+
+.topo {
+  border-right: 1px dotted #6feff9;
+}
+
+#cttv {
+  display: inline-block;
+  width: 100%;
+}
+
+#stats {
+  display: inline-block;
+  width: 100%;
+}
+
+@keyframes percentages {
+
+  40% {
+    transform: translateX(-2em);
+  }
+
+  80% {
+    transform: translateX(2em);
+  }
+
+}
